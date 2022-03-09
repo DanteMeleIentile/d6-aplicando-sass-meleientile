@@ -1,5 +1,5 @@
 body{
-    background-image: url(./img/bg-softrock-version.png);
+    background-image: url(../img/bg-softrock-version.png);
     font-family: aktiv-grotesk, sans-serif;
     font-style: normal;
     /* ARREGLOS PARA FOOTER EN BOTTOM */
@@ -11,7 +11,7 @@ body{
 /* NAV ************/
 
 nav{
-  background-image: url(./img/bg-softrock-version.png);
+  background-image: url(../img/bg-softrock-version.png);
   background-image: linear-gradient(to right, rgba(111, 161, 193, 1), rgba(170, 149, 187, 1) 50%);
   border-image: 3px;
   border-bottom:3px solid #5a3159;
@@ -63,17 +63,18 @@ nav{
 
 .galeria__desk_images{
   position: relative;
-}
 
-  .galeria__desk_images img{
+  img{
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
+  
+    .galeria__text_images{
+      position: absolute;
+      bottom: 0px;
+    }
 
-.galeria__text_images{
-  position: absolute;
-  bottom: 0px;
 }
 
 /* OBRAS ************/
@@ -83,7 +84,7 @@ nav{
     padding: 5rem 0;
 }
 
-.asd{
+.spotify_color{
   background-color: #5a3159;
 }
 
@@ -108,26 +109,30 @@ nav{
 /* FOOTER ************/
 footer{
   margin-top: auto !important;
-}
 
   .footer__bordes{
     border-top:3px solid #af4056;
     border-bottom:3px solid #af4056;
   }
 
+}
+
+
 /* SELECTORES DE ETIQUETAS *******************/
 
 address a{
   color: #5a3159;
-}
 
-  address a:visited{
+  :visited{
     color: #5a3159;
   }
 
-  address a:hover{
+  :hover{
     transform: scale(1.2);
+    color: #5a3159;
   }
+
+}
 
 /* Arreglos para navs !Firefox ************/
 a:-webkit-any-link{

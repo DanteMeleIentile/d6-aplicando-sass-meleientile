@@ -53,22 +53,20 @@ nav {
 
 .galeria__desk_images {
   position: relative; }
-
-.galeria__desk_images img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; }
-
-.galeria__text_images {
-  position: absolute;
-  bottom: 0px; }
+  .galeria__desk_images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .galeria__desk_images .galeria__text_images {
+    position: absolute;
+    bottom: 0px; }
 
 /* OBRAS ************/
 .Obras__iframe {
   height: 25rem;
   padding: 5rem 0; }
 
-.asd {
+.spotify_color {
   background-color: #5a3159; }
 
 /* VIDA ************/
@@ -86,20 +84,18 @@ nav {
 /* FOOTER ************/
 footer {
   margin-top: auto !important; }
-
-.footer__bordes {
-  border-top: 3px solid #af4056;
-  border-bottom: 3px solid #af4056; }
+  footer .footer__bordes {
+    border-top: 3px solid #af4056;
+    border-bottom: 3px solid #af4056; }
 
 /* SELECTORES DE ETIQUETAS *******************/
 address a {
   color: #5a3159; }
-
-address a:visited {
-  color: #5a3159; }
-
-address a:hover {
-  transform: scale(1.2); }
+  address a :visited {
+    color: #5a3159; }
+  address a :hover {
+    transform: scale(1.2);
+    color: #5a3159; }
 
 /* Arreglos para navs !Firefox ************/
 a:-webkit-any-link {
