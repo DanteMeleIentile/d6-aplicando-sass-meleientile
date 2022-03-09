@@ -1,0 +1,135 @@
+body{
+    background-image: url(./img/bg-softrock-version.png);
+    font-family: aktiv-grotesk, sans-serif;
+    font-style: normal;
+    /* ARREGLOS PARA FOOTER EN BOTTOM */
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+}
+
+/* NAV ************/
+
+nav{
+  background-image: url(./img/bg-softrock-version.png);
+  background-image: linear-gradient(to right, rgba(111, 161, 193, 1), rgba(170, 149, 187, 1) 50%);
+  border-image: 3px;
+  border-bottom:3px solid #5a3159;
+}
+
+  .pestaña__activo{
+    background-color: rgba(235, 210, 255, 0.4) !important; 
+  }
+
+  .nav_logo_style{
+    font-family: 'News Cycle', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    font-size: 2.8rem;
+    letter-spacing: .06em;
+    text-shadow: .15rem .15rem 0 #5a3159;
+  }
+
+  .nav_tab_style{
+    font-family: 'News Cycle', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    letter-spacing: .06em;
+  }
+
+/* INDEX ************/
+
+#index__video{
+  max-height: 87vh;
+  background-image: linear-gradient(65deg, rgba(111, 161, 193, 1), rgba(170, 149, 187, 1));
+}
+
+.pie_de_tabla{
+  color: #5a3159;
+}
+
+/* GALERÍA ************/
+
+.galeria__carrusel{
+  max-height: 80vh !important;
+}
+
+.galeria__desk_images{
+  position: relative;
+}
+
+  .galeria__desk_images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.galeria__text_images{
+  position: absolute;
+  bottom: 0px;
+}
+
+/* OBRAS ************/
+
+.Obras__iframe{
+    height: 25rem;
+    padding: 5rem 0;
+}
+
+.asd{
+  background-color: #5a3159;
+}
+
+/* VIDA ************/
+
+@media screen and (min-width: 768px) {
+  #vida__img_2{
+    order: 1;
+  }
+}
+
+/* CONTACTO ************/
+
+.contacto__map{
+  height: 25rem !important;
+}
+
+.form__comentarios{
+  height: 11rem !important;
+}
+
+/* FOOTER ************/
+footer{
+  margin-top: auto !important;
+}
+
+  .footer__bordes{
+    border-top:3px solid #af4056;
+    border-bottom:3px solid #af4056;
+  }
+
+/* SELECTORES DE ETIQUETAS *******************/
+
+address a{
+  color: #5a3159;
+}
+
+  address a:visited{
+    color: #5a3159;
+  }
+
+  address a:hover{
+    transform: scale(1.2);
+  }
+
+/* Arreglos para navs !Firefox ************/
+a:-webkit-any-link{
+  color: #5a3159;
+}
