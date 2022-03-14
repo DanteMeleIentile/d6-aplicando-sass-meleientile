@@ -1,3 +1,5 @@
+@import "texto";
+
 body{
     background-image: url(../img/bg-softrock-version.png);
     font-family: aktiv-grotesk, sans-serif;
@@ -123,11 +125,11 @@ footer{
 address a{
   color: #5a3159;
 
-  :visited{
+  &:visited{
     color: #5a3159;
   }
 
-  :hover{
+  &:hover{
     transform: scale(1.2);
     color: #5a3159;
   }

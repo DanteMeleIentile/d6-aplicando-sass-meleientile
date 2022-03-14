@@ -1,4 +1,12 @@
 @charset "UTF-8";
+p, td {
+  font-family: 'News Cycle', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  font-size: 1.1rem;
+  letter-spacing: .06em; }
+
 body {
   background-image: url(../img/bg-softrock-version.png);
   font-family: aktiv-grotesk, sans-serif;
@@ -91,9 +99,9 @@ footer {
 /* SELECTORES DE ETIQUETAS *******************/
 address a {
   color: #5a3159; }
-  address a :visited {
+  address a:visited {
     color: #5a3159; }
-  address a :hover {
+  address a:hover {
     transform: scale(1.2);
     color: #5a3159; }
 
