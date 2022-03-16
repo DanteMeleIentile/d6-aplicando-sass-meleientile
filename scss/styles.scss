@@ -1,7 +1,8 @@
 @import "texto";
 
 body{
-    background-image: url(../img/bg-softrock-version.png);
+    /* background-image: url(../img/bg-softrock-version.png); */
+    background-color: #859cb2;
     font-family: aktiv-grotesk, sans-serif;
     font-style: normal;
     /* ARREGLOS PARA FOOTER EN BOTTOM */
@@ -21,18 +22,6 @@ nav{
 
   .pestaña__activo{
     background-color: rgba(235, 210, 255, 0.4) !important; 
-  }
-
-  .nav_logo_style{
-    font-family: 'News Cycle', sans-serif;
-    font-weight: bold;
-    font-style: italic;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 0;
-    font-size: 2.8rem;
-    letter-spacing: .06em;
-    text-shadow: .15rem .15rem 0 #5a3159;
   }
 
   .nav_tab_style{
@@ -75,8 +64,18 @@ nav{
     .galeria__text_images{
       position: absolute;
       bottom: 0px;
+      font-size: 1.3rem;
+      @extend .titulo;
+      font-family: 'News Cycle', sans-serif;
+      font-weight: bold;
+      font-style: italic;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      color: white;
+      text-shadow: .1rem .1rem 0 black;
+      background-image: linear-gradient(to right, rgba(111, 161, 193, 0.3), rgba(170, 149, 187, 0.6) 50%);
+      width: 100%;
     }
-
 }
 
 /* OBRAS ************/
@@ -118,7 +117,6 @@ footer{
   }
 
 }
-
 
 /* SELECTORES DE ETIQUETAS *******************/
 
