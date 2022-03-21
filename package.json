@@ -1,15 +1,23 @@
 {
-  "name": "sass-proyecto",
+  "name": "john-mayer-meleientile",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
+    "build-css": "node-sass --include-path scss scss/custom.scss css/custom.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanteMeleIentile/d6-aplicando-sass-meleientile.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanteMeleIentile/d6-aplicando-sass-meleientile/issues"
+  },
+  "homepage": "https://github.com/DanteMeleIentile/d6-aplicando-sass-meleientile#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
