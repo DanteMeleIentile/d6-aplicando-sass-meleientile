@@ -1,7 +1,6 @@
 {
   "name": "john-mayer-meleientile",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,6 +17,7 @@
     "url": "https://github.com/DanteMeleIentile/d6-aplicando-sass-meleientile/issues"
   },
   "homepage": "https://github.com/DanteMeleIentile/d6-aplicando-sass-meleientile#readme",
+  "description": "",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
